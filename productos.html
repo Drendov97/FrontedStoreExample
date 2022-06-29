@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fronted Store</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace navegacion__enlace--activo" href="">Tienda</a>
+        <a class="navegacion__enlace" href="">Nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1>ReactJS</h1>
+
+        <div class="camisa">
+            <img src="img/3.jpg" alt="imagen producto" class="camisa_imagen">
+
+            <div class="camisa_contenido">
+                <p>Integer in tristique lectus. Curabitur eu diam in nisi ultrices rutrum at sit amet velit. Quisque venenatis, arcu non maximus suscipit, mi ex auctor diam, et feugiat sapien sem eget tellus.Quisque vehicula dignissim tortor, eget auctor
+                    elit imperdiet eget. Praesent quis urna sit amet dolor pretium tempor. In at justo id tortor pharetra dapibus imperdiet in mi. Donec blandit nibh dui, quis tincidunt massa hendrerit sed. Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit.
+                </p>
+
+                <form class="formulario">
+                    <select class="formulario__campo">
+                            <option disabled selected>--Seleccionar Talla--</option>
+                            <option value="">Chica</option>
+                            <option value="">Mediana</option>
+                            <option value="">Grande</option>
+                        </select>
+
+                    <input class="formulario__campo" type="number" placeholder="Cantidad" min="1">
+                    <input class="formulario__sumbit" type="submit" value="Agregar al Carrito">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__texto">Front End Store - Todos los derechos Reservados 2022.</p>
+    </footer>
+</body>
+
+</html>
